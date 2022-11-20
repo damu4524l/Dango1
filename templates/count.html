@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>countigpage</title>
+    </head>
+    <body>
+        <div class="serction">
+            <h1>there are {{count}} of words in this page</h1>
+            <p>YOUr text</p>
+            {{fulltext}}<br/>
+            {{wordd}}
+            {% for word,count in s_d %}
+            
+            {{word}}-{{count}}<br><br><br>
+            {%endfor%}
+
+            {% for a,b in wordd %}
+            {{a}}--{{b}}
+            {%endfor%}
+        </div>
+    </body>
+</html>
